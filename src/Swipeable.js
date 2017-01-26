@@ -12,7 +12,7 @@ export default class Swipeable extends Component {
     onOpen: PropTypes.func,
     onClose: PropTypes.func,
     children: PropTypes.any,
-    style: PropTypes.object,
+    style: PropTypes.any,
   };
 
   static defaultProps = {
@@ -37,9 +37,9 @@ export default class Swipeable extends Component {
     const bgColor = style.backgroundColor || 'transparent';
     const childComponent = (
       <View
-        style={[{
+        style={{
           flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: bgColor,
-        }, style]}
+        }}
       >
         {renderChildren()}
       </View>

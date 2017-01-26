@@ -1,6 +1,6 @@
 {
   "name": "rn-swipeable",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Completely customizable swipeable component for react native. Supports both iOS and Android. Wrapped around react-native-swipe-out.",
   "keywords": [
     "react",
