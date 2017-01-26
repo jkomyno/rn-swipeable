@@ -1,0 +1,45 @@
+{
+  "name": "rn-swipeable",
+  "version": "1.0.3",
+  "description": "Completely customizable swipeable component for react native. Supports both iOS and Android. Wrapped around react-native-swipe-out.",
+  "keywords": [
+    "react",
+    "react-component",
+    "swipeout",
+    "rc-swipeout",
+    "swipe delete"
+  ],
+  "homepage": "https://github.com/jkomyno/rn-swipeable",
+  "author": "alberto.schiabel@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jkomyno/rn-swipeable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jkomyno/rn-swipeable/issues"
+  },
+  "files": [
+    "lib"
+  ],
+  "licenses": "MIT",
+  "main": "./lib/index",
+  "scripts": {
+    "pub": "rc-tools run pub --babel-runtime",
+    "lint": "rc-tools run lint",
+    "watch": "rc-tools run watch",
+    "build": "rc-tools run build"
+  },
+  "dependencies": {
+    "babel-runtime": "6.x",
+    "react-native-swipe-out": "~2.0.12"
+  },
+  "devDependencies": {
+    "pre-commit": "1.x",
+    "rc-tools": "5.x",
+    "react": "~15.2.1",
+    "react-native": "0.30.0"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}
